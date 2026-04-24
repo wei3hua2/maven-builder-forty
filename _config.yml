@@ -1,44 +1,47 @@
-# site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/maven-builder-forty" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# 🔷 Site Settings
+title: Maven Builder
+subtitle: Building with Precision
+email: dorischong@mavenbuilder.sg
+description: >
+  Maven Builder Pte Ltd delivers end-to-end construction solutions backed by over 20 years of experience.
+  We combine disciplined execution with modern, technology-enabled workflows to deliver reliable outcomes.
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+baseurl: "/maven-builder-forty" # keep this for GitHub Pages repo
+url: "" # leave empty unless using custom domain
+
+# 🔷 Company Info
+author: Maven Builder Pte Ltd
+street_address: 2 Defu South Street 1, #07-07
+city: Singapore
+state:
+zip_code: 533715
+country: Singapore
+phone: "+65 9752 4767"
+
+# 🔷 Homepage Tiles
+tiles-source: pages
 tiles-count: 6
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
+# 🔷 Social Links (Font Awesome Brands)
+# Only include what you actually use
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  GitHub: https://github.com/wei3hua2
+  LinkedIn: https://www.linkedin.com/
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
   Facebook:
+  Twitter:
+  GitLab:
   Slack:
 
-# build settings
+# 🔷 Build Settings
 markdown: kramdown
 
 sass:
   style: compressed
 
+# 🔷 Exclusions
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
